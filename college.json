@@ -1,0 +1,74 @@
+[
+    {
+      "image": "https://example.com/college-image.jpg",
+      "name": "Stanford University",
+      "admission_dates": ["January 1st", "March 1st"],
+      "events": ["Stanford Day", "Spring Fling", "Homecoming"],
+      "research_history": ["Artificial Intelligence", "Cancer Research", "Climate Change"],
+      "sports": ["Football", "Basketball", "Baseball"]
+    },
+    {
+      "image": "https://example.com/college-image2.jpg",
+      "name": "Harvard University",
+      "admission_dates": ["November 1st", "February 1st"],
+      "events": ["Harvard Commencement", "Harvard-Yale Game", "Hasty Pudding Theatricals"],
+      "research_history": ["Law", "Medicine", "Business"],
+      "sports": ["Football", "Basketball", "Lacrosse"]
+    },
+    {
+      "image": "https://example.com/college-image3.jpg",
+      "name": "MIT",
+      "admission_dates": ["October 1st", "January 1st"],
+      "events": ["MIT Open House", "MIT Media Lab Show", "MIT Museum Gala"],
+      "research_history": ["Engineering", "Computer Science", "Physics"],
+      "sports": ["Football", "Basketball", "Ice Hockey"]
+    },
+    {
+      "image": "https://example.com/college-image4.jpg",
+      "name": "Yale University",
+      "admission_dates": ["December 1st", "February 1st"],
+      "events": ["Yale Bulldog Weekend", "Yale-Harvard Game", "Yale Glee Club Concert"],
+      "research_history": ["History", "Literature", "Political Science"],
+      "sports": ["Football", "Basketball", "Sailing"]
+    },
+    {
+      "image": "https://example.com/college-image5.jpg",
+      "name": "Princeton University",
+      "admission_dates": ["November 1st", "March 1st"],
+      "events": ["Princeton Reunions", "Princeton Day", "Princeton Arts Festival"],
+      "research_history": ["Economics", "Mathematics", "Physics"],
+      "sports": ["Football", "Basketball", "Lacrosse"]
+    },
+    {
+      "image": "https://example.com/college-image6.jpg",
+      "name": "Columbia University",
+      "admission_dates": ["January 1st", "March 1st"],
+      "events": ["Columbia University Spring Fling", "Columbia Homecoming", "Columbia University Commencement"],
+      "research_history": ["Law", "Medicine", "Business"],
+      "sports": ["Football", "Basketball", "Baseball"]
+    },
+    {
+      "image": "https://example.com/college-image7.jpg",
+      "name": "University of Chicago",
+      "admission_dates": ["October 1st", "January 1st"],
+      "events": ["UChicago Open House", "UChicago Cultural Center Program", "UChicago Cancer Research Center Gala"],
+      "research_history": ["Economics", "History", "Literature"],
+      "sports": ["Football", "Basketball", "Baseball"]
+    },
+    {
+      "image": "https://example.com/college-image8.jpg",
+      "name": "University of Pennsylvania",
+      "admission_dates": ["November 1st", "February 1st"],
+      "events": ["Penn Relays", "Penn Wharton Healthcare Conference", "Penn Homecoming"],
+      "research_history": ["Business", "Engineering", "Medicine"],
+      "sports": ["Football", "Basketball", "Lacrosse"]
+    },
+    {
+      "image": "https://example.com/college-image9.jpg",
+      "name": "Dartmouth College",
+      "admission_dates": ["December 1st", "February 1st"],
+      "events": ["Dartmouth Winter Carnival", "Dartmouth Green Key Weekend", "Dartmouth Commencement"],
+      "research_history": ["Engineering", "Environmental Studies", "Political Science"],
+      "sports": ["Football", "Basketball", "Ice Hockey"]
+    }
+]
