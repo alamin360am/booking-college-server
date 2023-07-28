@@ -33,7 +33,10 @@ async function run() {
     await client.connect();
     // Send a ping to confirm a successful connection
 
-    const collegeCollection = client.db("collegeBookingDB").collection("colleges")
+    const collegeCollection = client.db("collegeBookingDB").collection("colleges");
+    const admissionCollection = client.db("collegeBookingDB").collection("admission");
+
+    // College API
 
     app.get('/colleges', async(req, res) => {
       const result = await collegeCollection.find().toArray();
@@ -44,6 +47,19 @@ async function run() {
       const id = req.params.id;
       const query = { _id: id };
       const result = await collegeCollection.findOne(query);
+      res.send(result);
+    })
+
+    // Admission API
+
+    app.get('/admission', async(req, res) => {
+      const result = await admissionCollection.find().toArray();
+      res.send(result)
+    });
+
+    app.post('/admission', async(req, res)=>{
+      const admission = req.body;
+      const result = await admissionCollection.insertOne(admission);
       res.send(result);
     })
 
