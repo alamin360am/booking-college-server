@@ -52,10 +52,19 @@ async function run() {
 
     // Admission API
 
-    app.get('/admission', async(req, res) => {
-      const result = await admissionCollection.find().toArray();
+    // app.get('/all-admission', async(req, res) => {
+    //   const result = await admissionCollection.find().toArray();
+    //   res.send(result)
+    // });
+
+    app.get('/admission', async(req, res)=>{
+      let query = {}
+      if(req.query?.email) {
+        query = { email: req.query.email}
+      }
+      const result = await admissionCollection.find(query).toArray();
       res.send(result)
-    });
+    })
 
     app.post('/admission', async(req, res)=>{
       const admission = req.body;
